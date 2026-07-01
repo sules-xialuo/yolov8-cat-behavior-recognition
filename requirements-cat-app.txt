@@ -1,0 +1,23 @@
+﻿# Runtime dependencies for the cat behavior YOLOv8 project.
+# The clean GitHub upload package does not include the full ultralytics source tree.
+# Install YOLOv8 from PyPI.
+ultralytics
+numpy
+opencv-python
+Pillow
+PyYAML
+requests
+scipy
+matplotlib
+pandas
+tqdm
+seaborn
+albumentations
+psutil
+py-cpuinfo
+thop
+
+# Install a CUDA-compatible torch build according to your GPU/CUDA environment.
+# Example used during development: torch 1.13.1 + cu116.
+torch
+torchvision

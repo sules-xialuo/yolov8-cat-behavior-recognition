@@ -1,0 +1,6 @@
+path: C:\Users\34296\Desktop\ultralytics-main\datasets\cats_aug_dynamic_20260531_020635
+train: images/train
+val: images/val
+
+nc: 7
+names: ['shangtai', 'qianqing', 'xiachui', 'shuangbian', 'yuantong', 'quansuo', 'shutong']
