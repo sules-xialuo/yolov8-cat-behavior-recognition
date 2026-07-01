@@ -89,18 +89,7 @@ yolo-cats-focus.yaml                   # 精选微调数据配置
 requirements-cat-app.txt               # 项目运行依赖参考
 GITHUB_UPLOAD_GUIDE.md                 # GitHub 上传说明
 ```
-
-## 不上传的内容
-
-为了保持 GitHub 仓库干净，以下内容默认被 `.gitignore` 排除：
-
-- `datasets/`：本地训练数据集
-- `runs/`：训练输出、曲线图、混淆矩阵、临时验证结果
-- `review/`：人工复核中间目录
-- `logs/`：训练日志
-- `*.docx`、`*.pdf`：本地论文、简历、临时文档
-- 除 `weights/cats_focus_best.pt` 以外的模型权重
-- `yolov8n.pt`、`yolov8s.pt` 等基础预训练权重
+8n.pt`、`yolov8s.pt` 等基础预训练权重
 
 ## 数据说明
 
@@ -109,8 +98,6 @@ GITHUB_UPLOAD_GUIDE.md                 # GitHub 上传说明
 ```text
 D:\catshuju\original_dataset
 ```
-
-由于数据集通常包含大量图片和人工标注，不建议直接上传 GitHub。若需要公开数据，建议单独发布到 Releases、网盘、Kaggle、Roboflow 或其它数据集平台，并在 README 中提供下载链接。
 
 ## 环境说明
 
@@ -125,7 +112,4 @@ Windows + NVIDIA RTX 4060 Laptop GPU
 
 可参考 `requirements-cat-app.txt` 安装必要依赖，其中包含 `ultralytics`。
 
-## 注意
-
-网页输出的行为解释仅作为日常观察辅助，不可替代兽医诊断。若猫出现持续异常行为、明显疼痛、呼吸异常、拒食、无法排尿等情况，应及时就医。
 
